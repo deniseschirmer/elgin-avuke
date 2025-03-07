@@ -1,7 +1,9 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
     content: [
-      './src/**/*.{js,ts,jsx,tsx,mdx}', // Ajuste os caminhos conforme necessário
+      './src/pages/**/*.{js,ts,jsx,tsx,mdx}',
+      './src/components/**/*.{js,ts,jsx,tsx,mdx}',
+      './src/app/**/*.{js,ts,jsx,tsx,mdx}',
     ],
     theme: {
       extend: {
@@ -10,7 +12,7 @@ module.exports = {
           foreground: 'var(--foreground)', // Usa a variável CSS --foreground
         },
         backgroundImage: {
-          'blue-gradient': 'var(--background-blue)', // Usa a variável CSS --background-blue
+          'blue-gradient': 'var(--blue-gradient)', // Usa a variável CSS --blue-gradient
         },
       },
     },
