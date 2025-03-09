@@ -7,9 +7,13 @@ module.exports = {
     ],
     theme: {
       extend: {
-        colors: {
-          background: 'var(--background)', // Usa a variável CSS --background
-          foreground: 'var(--foreground)', // Usa a variável CSS --foreground
+            colors: {
+            primary: '#0099ff',
+            accent: '#818181',
+            grayLight: '#d9d9d9',
+            grayDark: '#333',
+            background: 'var(--background)', // Usa a variável CSS --background
+            foreground: 'var(--foreground)', // Usa a variável CSS --foreground
         },
         backgroundImage: {
           'blue-gradient': 'var(--blue-gradient)', // Usa a variável CSS --blue-gradient

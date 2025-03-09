@@ -10,26 +10,23 @@ export default function Hero() {
       <Header />
       <div className="flex items-center justify-center py-16 md:py-24 relative z-10">
         <div className="absolute inset-0 -z-10">
-          <Image src="/assets/images/ilustra.svg" alt="ilustração" fill className="object-cover" />
+          <Image src="/assets/images/ilustra.svg" alt="ilustração" fill className="object-contain"  />
         </div>
-        <div className="bg-black rounded-lg p-6 max-w-2xl text-center">
-          <h1 className="text-2xl  mb-4">
-            Bem-vindo ao Clube {" "}
+        <div className="bg-black text-white p-10 rounded-[42px] text-left w-full max-w-[1130px]">
+          <h1 className="text-4xl font-thin">
+            Bem-vindo ao Clube
             <Image
-              src="/assets/images/logo-white.svg"
+              src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Logo-VnPynLJ8Y1d5WbQIUM5VLT87uB70IB.png"
               alt="Elgin"
-              width={120}
-              height={40}
-              className="inline-block"
+              width={180}
+              height={60}
+              className="inline-block ml-2"
             />
           </h1>
-          <p className="text-sm md:text-base mb-6">
+          <p className="mt-4 font-light max-w-[550px]">
             Agora que você já conhece o nosso programa de incentivos, chegou o momento de aproveitar todas as
-            vantagens que o Clube Elgin oferece.
-          </p>
-          <p className="text-lg">
-            Estamos aqui para {" "}
-            <strong>reconhecer seus talentos e transformar suas vendas em benefícios e experiências exclusivas.</strong>
+            vantagens que o Clube Elgin oferece. Estamos aqui para
+            <span className="font-semibold"> reconhecer seu talento e transformar suas vendas em benefícios e experiências exclusivas.</span>
           </p>
         </div>
       </div>
