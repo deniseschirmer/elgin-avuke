@@ -16,7 +16,7 @@ export default function HeroImage() {
         alt="Pessoa usando laptop"
         width={600}
         height={500}
-        className="object-contain"
+        className="object-contain relative"
       />
     </motion.div>
   )

@@ -3,6 +3,7 @@
 import Image from "next/image"
 
 import Header from "./Header"
+// import HeroImage from "./HeroImage"
 
 export default function Hero() {
   return (
@@ -12,7 +13,7 @@ export default function Hero() {
         <div className="absolute inset-0 -z-10">
           <Image src="/assets/images/ilustra.svg" alt="ilustração" fill className="object-contain"  />
         </div>
-        <div className="bg-black text-white p-10 rounded-[42px] text-left w-full max-w-[1130px]">
+        <div className="bg-black text-white p-10 rounded-[42px] text-left w-full max-w-[1130px] absolute">
           <h1 className="text-4xl font-thin">
             Bem-vindo ao Clube
             <Image
@@ -29,23 +30,8 @@ export default function Hero() {
             <span className="font-semibold"> reconhecer seu talento e transformar suas vendas em benefícios e experiências exclusivas.</span>
           </p>
         </div>
+        {/* <HeroImage /> */}
       </div>
-
-      {/* Ícones decorativos animados
-      {[
-        { src: "/images/icon-chart.svg", className: "top-1/4 left-10" },
-        { src: "/images/icon-bag.svg", className: "bottom-1/4 right-10", delay: 1 },
-        { src: "/images/icon-coin.svg", className: "bottom-1/3 left-1/4", delay: 0.5 }
-      ].map(({ src, className, delay = 0 }, index) => (
-        <motion.div
-          key={index}
-          className={`absolute w-12 h-12 ${className}`}
-          animate={{ y: [0, -10, 0] }}
-          transition={{ repeat: Infinity, duration: 3, delay }}
-        >
-          <Image src={src} alt="" width={48} height={48} />
-        </motion.div>
-      ))} */}
     </section>
   )
 }

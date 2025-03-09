@@ -6,11 +6,6 @@
   --background: #ffffff;
   --foreground: #171717;
   --blue-gradient: linear-gradient(180deg, #09F 0%, #005C99 98.39%);
-
-  --font-visby-thin: Visby Thin;
-  --font-visby-thin-italic: Visby Thin Italic;
-  --font-visby-thin-bold: Visby Thin Bold;
-  --font-visby-thin-bold-italic: Visby Thin Bold Italic;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -21,9 +16,9 @@
 }
 
 body {
+  font-family: "VisbyCF", sans-serif;
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
 }
 
 .hero {
@@ -58,25 +53,29 @@ body {
   align-items: center;
   justify-content: center;
   gap: 1rem;
+  font-weight: 700; /* Já herdará a fonte Visby do body */
 }
 
 .hero-text p {
   font-size: 1.125rem;
   line-height: 1.6;
+  font-weight: 400;
 }
 
 .logo-inline {
   display: inline-block;
 }
 
-
 @media (max-width: 768px) {
   .hero-text h1 {
     font-size: 1.875rem;
     flex-direction: column;
   }
-  
+
   .hero-text p {
     font-size: 1rem;
   }
 }
+
+
+
