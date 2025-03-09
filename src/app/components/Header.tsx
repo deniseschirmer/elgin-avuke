@@ -7,14 +7,14 @@ export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
-    <header className="flex w-full h-[101px] py-4 pr-6 pl-6 items-center justify-around flex-shrink-0 bg-blue-gradient text-white">
+    <header className="flex w-full h-[101px] py-4 pr-6 pl-6 items-center justify-around flex-shrink-0 bg-transparent text-white">
       {/* Logo */}
       <Link href="/" className="w-[176px] h-[101px] flex-shrink-0 flex items-center justify-start">
         <Image
           src="/assets/images/logo-white.svg"
           alt="Elgin Logo"
-          width={176} // Largura da imagem
-          height={101} // Altura da imagem
+          width={176} 
+          height={101} 
           className="object-contain"
           priority
         />
