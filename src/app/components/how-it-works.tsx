@@ -4,7 +4,6 @@ import { motion } from "framer-motion";
 import Image from "next/image";
 
 export default function HowItWorks() {
-  // Animações (apenas para os cards)
   const fadeInUp = {
     hidden: { opacity: 0, y: 20 },
     visible: { opacity: 1, y: 0 },
@@ -19,9 +18,9 @@ export default function HowItWorks() {
   };
 
   return (
-    <section className="py-16 px-4">
+    <section className="py-16 px-4 relative z-10 bg-white mt-[-50px]"> {/* Ajuste o margin-top conforme necessário */}
       <div className="container mx-auto">
-        {/* Título (sem animação) */}
+        {/* Título */}
         <h2 className="text-4xl text-primary font-light mb-1 text-left">
           Como Funciona?
         </h2>

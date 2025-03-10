@@ -1,7 +1,7 @@
-"use client"
+"use client";
 
-import Image from "next/image"
-import { motion } from "framer-motion"
+import Image from "next/image";
+import { motion } from "framer-motion";
 
 export default function HeroImage() {
   return (
@@ -14,10 +14,10 @@ export default function HeroImage() {
       <Image
         src="/assets/images/hero-person.svg"
         alt="Pessoa usando laptop"
-        width={600}
-        height={500}
+        width={447}
+        height={873}
         className="object-contain relative"
       />
     </motion.div>
-  )
+  );
 }
