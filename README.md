@@ -13,7 +13,7 @@ Este projeto é uma Landing Page desenvolvida com Next.js 15 e Tailwind CSS. A a
 
 ```bash
 # Clone o repositório:
-git clone https://github.com/seu-usuario/nome-do-projeto.git
+git clone https://github.com/deniseschirmer/elgin-avuke
 
 # Acesse a pasta do projeto:
 cd nome-do-projeto
