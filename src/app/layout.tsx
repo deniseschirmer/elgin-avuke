@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import localFont from "next/font/local"; // Importe o módulo para fontes locais
+import localFont from "next/font/local"; 
 import "./globals.css";
 import "./fonts.css";
 
@@ -9,20 +9,20 @@ import "./fonts.css";
 const visbyCF = localFont({
   src: [
     {
-      path: "../../public/fonts/VisbyCFRegular.otf", // Caminho corrigido
+      path: "../../public/fonts/VisbyCFRegular.otf", 
       weight: "400",
       style: "normal",
     },
     
   ],
-  variable: "--font-visby", // Defina uma variável CSS para a fonte
+  variable: "--font-visby", 
 });
 
 export const metadata: Metadata = {
   title: "Elgin",
   description: "Programa de incentivos e benefícios exclusivos do Clube Elgin",
   icons: {
-    icon: "/assets/images/favicon.ico", // Caminho para o favicon
+    icon: "/assets/images/favicon.ico", 
   },
 };
 

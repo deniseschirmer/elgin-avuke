@@ -18,8 +18,8 @@ export default function HowItWorks() {
   };
 
   return (
-    <section className="py-16 md:px-16 px-4 relative z-10 bg-white mt-[-50px] flex justify-center"> 
-      <div className="container mx-10 flex flex-col">
+    <section className="py-16 md:px-16 px-4 relative z-1 bg-white mt-[-50px] flex justify-center"> 
+      <div className="mx-10 flex flex-col">
         {/* Título */}
         <h2 className="text-4xl text-primary font-light mb-1 text-left">
           Como Funciona?

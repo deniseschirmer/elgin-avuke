@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import Header from "./Header";
-import HeroImage from "./HeroImage";
+
 
 export default function Hero() {
   return (
@@ -34,10 +34,10 @@ export default function Hero() {
         </div>
 
         {/* HeroImage posicionada para se estender para o HowItWorks */}
-        <div className="absolute bottom-[-50px] right-0 z-20"> {/* Ajuste o bottom conforme necessário */}
-          <HeroImage />
-        </div>
+         {/* Ajuste o bottom conforme necessário */}
+        
       </div>
     </section>
+
   );
 }
