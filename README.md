@@ -2,6 +2,8 @@
 
 Este projeto é uma Landing Page desenvolvida com Next.js 15 e Tailwind CSS. A aplicação é simples e responsiva, projetada para destacar informações e captar leads de maneira eficiente.
 
+### 🚀 Deploy : https://elgin-avuke.netlify.app/
+
 ## 🚀 Tecnologias Utilizadas
 
 - **Next.js 15** - Framework React para aplicações web.
